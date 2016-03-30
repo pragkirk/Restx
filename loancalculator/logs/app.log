@@ -1,0 +1,1162 @@
+2016-03-28 13:23:31,473 [main            ] [          ] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2016-03-28 13:23:32,079 [main            ] [          ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+2016-03-28 13:23:32,099 [main            ] [          ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> DEV MODE << >> AUTO COMPILE <<
+ -- for admin console,
+ --   VISIT http://127.0.0.1:8080/api/@/ui/
+ --
+
+2016-03-28 13:23:33,263 [pool-1-thread-1 ] [          ] INFO  restx.classloader.CompilationManager - compilation finished: 5 sources compiled in 1.043 s
+2016-03-28 13:23:33,764 [main            ] [          ] INFO  restx.classloader.CompilationManager - watching for changes in [src/main/java, src/main/resources]; current location is /Users/pragkirk/development/modernjava/apps/Restx/loancalculator/.
+2016-03-28 13:23:33,805 [main            ] [          ] INFO  restx.monitor.MetricsConfiguration - registering Metrics JVM metrics
+2016-03-28 13:23:36,124 [qtp655787180-21 ] [          ] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.1.Final
+2016-03-28 13:23:36,205 [qtp655787180-21 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/ - per request factory created in 320.2 ms
+2016-03-28 13:23:36,277 [qtp655787180-21 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2016-04-27T13:14:21.264-05:00","principal":"admin","sessionKey":"7c583b3a-fdde-46e0-bfcc-637c399c07c8"}. Ignoring session cookie.
+2016-03-28 13:23:36,529 [qtp655787180-22 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/securityHandling.js - per request factory created in 213.8 ms
+2016-03-28 13:23:36,531 [qtp655787180-22 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2016-04-27T13:14:21.264-05:00","principal":"admin","sessionKey":"7c583b3a-fdde-46e0-bfcc-637c399c07c8"}. Ignoring session cookie.
+2016-03-28 13:23:36,541 [qtp655787180-20 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/admin.css - per request factory created in 241.7 ms
+2016-03-28 13:23:36,542 [qtp655787180-20 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2016-04-27T13:14:21.264-05:00","principal":"admin","sessionKey":"7c583b3a-fdde-46e0-bfcc-637c399c07c8"}. Ignoring session cookie.
+2016-03-28 13:23:36,549 [qtp655787180-23 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/bootstrap.min.css - per request factory created in 249.9 ms
+2016-03-28 13:23:36,550 [qtp655787180-23 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2016-04-27T13:14:21.264-05:00","principal":"admin","sessionKey":"7c583b3a-fdde-46e0-bfcc-637c399c07c8"}. Ignoring session cookie.
+2016-03-28 13:23:36,553 [qtp655787180-24 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/admin.js - per request factory created in 235.5 ms
+2016-03-28 13:23:36,554 [qtp655787180-24 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2016-04-27T13:14:21.264-05:00","principal":"admin","sessionKey":"7c583b3a-fdde-46e0-bfcc-637c399c07c8"}. Ignoring session cookie.
+2016-03-28 13:23:36,720 [qtp655787180-21 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2016-04-27T13:14:21.264-05:00","principal":"admin","sessionKey":"7c583b3a-fdde-46e0-bfcc-637c399c07c8"}. Ignoring session cookie.
+2016-03-28 13:23:36,871 [qtp655787180-22 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2016-04-27T13:14:21.264-05:00","principal":"admin","sessionKey":"7c583b3a-fdde-46e0-bfcc-637c399c07c8"}. Ignoring session cookie.
+2016-03-28 13:23:36,877 [qtp655787180-22 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> UNAUTHORIZED - 6.971 ms
+2016-03-28 13:23:36,893 [qtp655787180-24 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2016-04-27T13:14:21.264-05:00","principal":"admin","sessionKey":"7c583b3a-fdde-46e0-bfcc-637c399c07c8"}. Ignoring session cookie.
+2016-03-28 13:23:36,894 [qtp655787180-24 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> UNAUTHORIZED - 1.430 ms
+2016-03-28 13:23:37,004 [qtp655787180-23 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2016-04-27T13:14:21.264-05:00","principal":"admin","sessionKey":"7c583b3a-fdde-46e0-bfcc-637c399c07c8"}. Ignoring session cookie.
+2016-03-28 13:23:37,083 [qtp655787180-21 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2016-04-27T13:14:21.264-05:00","principal":"admin","sessionKey":"7c583b3a-fdde-46e0-bfcc-637c399c07c8"}. Ignoring session cookie.
+2016-03-28 13:23:37,097 [qtp655787180-23 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2016-04-27T13:14:21.264-05:00","principal":"admin","sessionKey":"7c583b3a-fdde-46e0-bfcc-637c399c07c8"}. Ignoring session cookie.
+2016-03-28 13:23:37,161 [qtp655787180-20 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2016-04-27T13:14:21.264-05:00","principal":"admin","sessionKey":"7c583b3a-fdde-46e0-bfcc-637c399c07c8"}. Ignoring session cookie.
+2016-03-28 13:23:37,190 [qtp655787180-21 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2016-04-27T13:14:21.264-05:00","principal":"admin","sessionKey":"7c583b3a-fdde-46e0-bfcc-637c399c07c8"}. Ignoring session cookie.
+2016-03-28 13:23:37,194 [qtp655787180-25 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2016-04-27T13:14:21.264-05:00","principal":"admin","sessionKey":"7c583b3a-fdde-46e0-bfcc-637c399c07c8"}. Ignoring session cookie.
+2016-03-28 13:23:37,192 [qtp655787180-24 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2016-04-27T13:14:21.264-05:00","principal":"admin","sessionKey":"7c583b3a-fdde-46e0-bfcc-637c399c07c8"}. Ignoring session cookie.
+2016-03-28 13:23:37,200 [qtp655787180-22 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2016-04-27T13:14:21.264-05:00","principal":"admin","sessionKey":"7c583b3a-fdde-46e0-bfcc-637c399c07c8"}. Ignoring session cookie.
+2016-03-28 13:23:37,233 [qtp655787180-26 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2016-04-27T13:14:21.264-05:00","principal":"admin","sessionKey":"7c583b3a-fdde-46e0-bfcc-637c399c07c8"}. Ignoring session cookie.
+2016-03-28 13:23:37,264 [qtp655787180-23 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2016-04-27T13:14:21.264-05:00","principal":"admin","sessionKey":"7c583b3a-fdde-46e0-bfcc-637c399c07c8"}. Ignoring session cookie.
+2016-03-28 13:23:39,381 [qtp655787180-24 ] [          ] WARN  r.security.RestxSessionCookieFilter - invalid restx session signature. session was: {"_expires":"2016-04-27T13:14:21.264-05:00","principal":"admin","sessionKey":"7c583b3a-fdde-46e0-bfcc-637c399c07c8"}. Ignoring session cookie.
+2016-03-28 13:23:39,548 [qtp655787180-24 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] POST /sessions >> OK - 167.3 ms
+2016-03-28 13:23:39,884 [qtp655787180-26 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 23.95 ms
+2016-03-28 13:23:39,905 [qtp655787180-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 21.61 ms
+2016-03-28 13:23:46,827 [Thread-1        ] [          ] INFO  o.e.j.s.listener.ELContextCleaner - javax.el.BeanELResolver purged
+2016-03-28 13:23:46,885 [Thread-1        ] [          ] INFO  o.e.jetty.util.thread.ShutdownThread - shutdown already commenced
+2016-03-28 13:26:25,874 [main            ] [          ] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2016-03-28 13:26:26,460 [main            ] [          ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+2016-03-28 13:26:26,480 [main            ] [          ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> DEV MODE << >> AUTO COMPILE <<
+ -- for admin console,
+ --   VISIT http://127.0.0.1:8080/api/@/ui/
+ --
+
+2016-03-28 13:26:27,093 [pool-1-thread-1 ] [          ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 464.7 ms
+2016-03-28 13:26:27,500 [main            ] [          ] INFO  restx.classloader.CompilationManager - watching for changes in [src/main/java, src/main/resources]; current location is /Users/pragkirk/development/modernjava/apps/Restx/loancalculator/.
+2016-03-28 13:26:27,560 [main            ] [          ] INFO  restx.monitor.MetricsConfiguration - registering Metrics JVM metrics
+2016-03-28 13:26:32,731 [Thread-1        ] [          ] INFO  o.e.j.s.listener.ELContextCleaner - javax.el.BeanELResolver purged
+2016-03-28 13:26:32,787 [Thread-1        ] [          ] INFO  o.e.jetty.util.thread.ShutdownThread - shutdown already commenced
+2016-03-28 13:30:20,662 [main            ] [          ] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2016-03-28 13:30:21,210 [main            ] [          ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+2016-03-28 13:30:21,229 [main            ] [          ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> DEV MODE << >> AUTO COMPILE <<
+ -- for admin console,
+ --   VISIT http://127.0.0.1:8080/api/@/ui/
+ --
+
+2016-03-28 13:30:21,766 [main            ] [          ] WARN  / - unavailable
+java.lang.RuntimeException: java.lang.RuntimeException: Compilation failed:
+src/main/java/com/kirkk/loancalc/rest/LoanResource.java:17: error: class HelloResource is public, should be declared in a file named HelloResource.java
+public class HelloResource {
+       ^
+src/main/java/com/kirkk/loancalc/rest/LoanResource.java:29: error: cannot find symbol
+    	return new LoanCalculator.calculatePayment(principle, rate, term);
+    	                         ^
+  symbol:   class calculatePayment
+  location: class com.kirkk.loancalc.domain.LoanCalculator
+
+	at restx.classloader.CompilationManager.incrementalCompile(CompilationManager.java:355) ~[restx-classloader-0.34.jar:na]
+	at restx.RestxMainRouterFactory.build(RestxMainRouterFactory.java:392) ~[restx-core-0.34.jar:na]
+	at restx.RestxMainRouterFactory.newInstance(RestxMainRouterFactory.java:70) ~[restx-core-0.34.jar:na]
+	at restx.servlet.RestxMainRouterServlet.init(RestxMainRouterServlet.java:74) ~[restx-servlet-0.34.jar:na]
+	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:519) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHolder.doStart(ServletHolder.java:331) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:747) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250) [jetty-webapp-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492) [jetty-webapp-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at restx.server.JettyWebServer.start(JettyWebServer.java:109) [restx-server-jetty-0.34.jar:na]
+	at restx.server.JettyWebServer.startAndAwait(JettyWebServer.java:114) [restx-server-jetty-0.34.jar:na]
+	at com.kirkk.loancalc.AppServer.main(AppServer.java:30) [classes/:na]
+java.lang.RuntimeException: Compilation failed:
+src/main/java/com/kirkk/loancalc/rest/LoanResource.java:17: error: class HelloResource is public, should be declared in a file named HelloResource.java
+public class HelloResource {
+       ^
+src/main/java/com/kirkk/loancalc/rest/LoanResource.java:29: error: cannot find symbol
+    	return new LoanCalculator.calculatePayment(principle, rate, term);
+    	                         ^
+  symbol:   class calculatePayment
+  location: class com.kirkk.loancalc.domain.LoanCalculator
+
+	at restx.classloader.CompilationManager.compile(CompilationManager.java:519) ~[restx-classloader-0.34.jar:na]
+	at restx.classloader.CompilationManager.access$700(CompilationManager.java:51) ~[restx-classloader-0.34.jar:na]
+	at restx.classloader.CompilationManager$8.call(CompilationManager.java:347) ~[restx-classloader-0.34.jar:na]
+	at restx.classloader.CompilationManager$8.call(CompilationManager.java:325) ~[restx-classloader-0.34.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) ~[na:1.7.0_79]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178) ~[na:1.7.0_79]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292) ~[na:1.7.0_79]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) ~[na:1.7.0_79]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) ~[na:1.7.0_79]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.7.0_79]
+2016-03-28 13:30:38,761 [Thread-1        ] [          ] INFO  o.e.j.s.listener.ELContextCleaner - javax.el.BeanELResolver purged
+2016-03-28 13:30:38,816 [Thread-1        ] [          ] INFO  o.e.jetty.util.thread.ShutdownThread - shutdown already commenced
+2016-03-28 13:30:41,367 [main            ] [          ] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2016-03-28 13:30:41,966 [main            ] [          ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+2016-03-28 13:30:41,990 [main            ] [          ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> DEV MODE << >> AUTO COMPILE <<
+ -- for admin console,
+ --   VISIT http://127.0.0.1:8080/api/@/ui/
+ --
+
+2016-03-28 13:30:42,581 [main            ] [          ] WARN  / - unavailable
+java.lang.RuntimeException: java.lang.RuntimeException: Compilation failed:
+src/main/java/com/kirkk/loancalc/rest/LoanResource.java:17: error: class HelloResource is public, should be declared in a file named HelloResource.java
+public class HelloResource {
+       ^
+
+	at restx.classloader.CompilationManager.incrementalCompile(CompilationManager.java:355) ~[restx-classloader-0.34.jar:na]
+	at restx.RestxMainRouterFactory.build(RestxMainRouterFactory.java:392) ~[restx-core-0.34.jar:na]
+	at restx.RestxMainRouterFactory.newInstance(RestxMainRouterFactory.java:70) ~[restx-core-0.34.jar:na]
+	at restx.servlet.RestxMainRouterServlet.init(RestxMainRouterServlet.java:74) ~[restx-servlet-0.34.jar:na]
+	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:519) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHolder.doStart(ServletHolder.java:331) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:747) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250) [jetty-webapp-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492) [jetty-webapp-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at restx.server.JettyWebServer.start(JettyWebServer.java:109) [restx-server-jetty-0.34.jar:na]
+	at restx.server.JettyWebServer.startAndAwait(JettyWebServer.java:114) [restx-server-jetty-0.34.jar:na]
+	at com.kirkk.loancalc.AppServer.main(AppServer.java:30) [classes/:na]
+java.lang.RuntimeException: Compilation failed:
+src/main/java/com/kirkk/loancalc/rest/LoanResource.java:17: error: class HelloResource is public, should be declared in a file named HelloResource.java
+public class HelloResource {
+       ^
+
+	at restx.classloader.CompilationManager.compile(CompilationManager.java:519) ~[restx-classloader-0.34.jar:na]
+	at restx.classloader.CompilationManager.access$700(CompilationManager.java:51) ~[restx-classloader-0.34.jar:na]
+	at restx.classloader.CompilationManager$8.call(CompilationManager.java:347) ~[restx-classloader-0.34.jar:na]
+	at restx.classloader.CompilationManager$8.call(CompilationManager.java:325) ~[restx-classloader-0.34.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) ~[na:1.7.0_79]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178) ~[na:1.7.0_79]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292) ~[na:1.7.0_79]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) ~[na:1.7.0_79]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) ~[na:1.7.0_79]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.7.0_79]
+2016-03-28 13:31:27,396 [Thread-1        ] [          ] INFO  o.e.j.s.listener.ELContextCleaner - javax.el.BeanELResolver purged
+2016-03-28 13:31:27,450 [Thread-1        ] [          ] INFO  o.e.jetty.util.thread.ShutdownThread - shutdown already commenced
+2016-03-28 13:31:30,353 [main            ] [          ] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2016-03-28 13:31:30,869 [main            ] [          ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+2016-03-28 13:31:30,887 [main            ] [          ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> DEV MODE << >> AUTO COMPILE <<
+ -- for admin console,
+ --   VISIT http://127.0.0.1:8080/api/@/ui/
+ --
+
+2016-03-28 13:31:31,828 [pool-1-thread-1 ] [          ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 819.4 ms
+2016-03-28 13:31:32,290 [main            ] [          ] INFO  restx.classloader.CompilationManager - watching for changes in [src/main/java, src/main/resources]; current location is /Users/pragkirk/development/modernjava/apps/Restx/loancalculator/.
+2016-03-28 13:31:32,331 [main            ] [          ] INFO  restx.monitor.MetricsConfiguration - registering Metrics JVM metrics
+2016-03-28 13:31:40,163 [qtp321788455-23 ] [          ] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.1.Final
+2016-03-28 13:31:40,249 [qtp321788455-23 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/ - per request factory created in 359.0 ms
+2016-03-28 13:31:40,618 [qtp321788455-21 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/securityHandling.js - per request factory created in 205.3 ms
+2016-03-28 13:31:40,647 [qtp321788455-22 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/bootstrap.min.css - per request factory created in 244.6 ms
+2016-03-28 13:31:40,944 [qtp321788455-21 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 29.40 ms
+2016-03-28 13:31:41,007 [qtp321788455-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 16.34 ms
+2016-03-28 13:31:42,665 [qtp321788455-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 18.05 ms
+2016-03-28 13:31:42,676 [qtp321788455-23 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 16.67 ms
+2016-03-28 13:31:42,747 [qtp321788455-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 15.03 ms
+2016-03-28 13:31:42,758 [qtp321788455-23 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 17.74 ms
+2016-03-28 13:31:42,955 [qtp321788455-25 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 128.6 ms
+2016-03-28 13:31:43,126 [qtp321788455-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 112.6 ms
+2016-03-28 13:31:43,129 [qtp321788455-21 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/loan >> OK - 108.8 ms
+2016-03-28 13:31:43,154 [qtp321788455-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/json-schema >> OK - 58.95 ms
+2016-03-28 13:31:43,198 [qtp321788455-23 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> OK - 84.07 ms
+2016-03-28 13:31:43,217 [qtp321788455-20 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> OK - 165.5 ms
+2016-03-28 13:31:43,336 [qtp321788455-21 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/messages-admin - per request factory created in 203.4 ms
+2016-03-28 13:31:43,351 [qtp321788455-25 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/config - per request factory created in 360.7 ms
+2016-03-28 13:31:43,445 [qtp321788455-20 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/monitor - per request factory created in 226.8 ms
+2016-03-28 13:31:43,444 [qtp321788455-21 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages-admin >> OK - 108.1 ms
+2016-03-28 13:31:43,440 [qtp321788455-23 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/metrics - per request factory created in 239.5 ms
+2016-03-28 13:31:43,423 [qtp321788455-22 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/log-admin - per request factory created in 258.2 ms
+2016-03-28 13:31:43,421 [qtp321788455-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages >> OK - 94.40 ms
+2016-03-28 13:31:43,505 [qtp321788455-25 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/config >> OK - 29.48 ms
+2016-03-28 13:31:43,600 [qtp321788455-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/sessions >> OK - 28.68 ms
+2016-03-28 13:31:43,533 [qtp321788455-23 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/metrics >> OK - 52.94 ms
+2016-03-28 13:31:43,528 [qtp321788455-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/log-admin >> OK - 42.36 ms
+2016-03-28 13:31:43,528 [qtp321788455-20 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> OK - 51.89 ms
+2016-03-28 13:31:43,614 [qtp321788455-21 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> OK - 35.37 ms
+2016-03-28 13:31:45,699 [qtp321788455-25 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/loan >> OK - 30.79 ms
+2016-03-28 13:31:45,803 [qtp321788455-21 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 133.8 ms
+2016-03-28 13:31:45,878 [qtp321788455-20 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/loan&httpMethod=GET >> OK - 74.39 ms
+2016-03-28 13:31:58,648 [qtp321788455-20 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /loan ? term=60&principle=15000&rate=6 >> OK - 10.51 ms
+2016-03-28 13:32:13,646 [qtp321788455-26 ] [admin     ] WARN  restx.StdRestxMainRouter - request raised IllegalStateException: query param principle is required
+java.lang.IllegalStateException: query param principle is required
+	at restx.common.MorePreconditions.checkPresent(MorePreconditions.java:19) ~[restx-common-0.34.jar:na]
+	at com.kirkk.loancalc.rest.LoanResourceRouter$1.doRoute(LoanResourceRouter.java:47) ~[classes/:na]
+	at com.kirkk.loancalc.rest.LoanResourceRouter$1.doRoute(LoanResourceRouter.java:43) ~[classes/:na]
+	at restx.entity.StdEntityRoute.handle(StdEntityRoute.java:139) ~[restx-core-0.34.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.34.jar:na]
+	at restx.ResponseCloserFilter.handle(ResponseCloserFilter.java:28) ~[restx-core-0.34.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.34.jar:na]
+	at restx.CacheFilter$1.handle(CacheFilter.java:51) ~[restx-core-0.34.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.34.jar:na]
+	at restx.security.RestxSessionLogFilter.handle(RestxSessionLogFilter.java:43) ~[restx-core-0.34.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.34.jar:na]
+	at restx.security.RestxSessionCookieFilter.handle(RestxSessionCookieFilter.java:96) ~[restx-core-0.34.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.34.jar:na]
+	at restx.StdRestxMainRouter.route(StdRestxMainRouter.java:152) ~[restx-core-0.34.jar:na]
+	at restx.RestxMainRouterFactory$PerRequestFactoryLoader.route(RestxMainRouterFactory.java:228) [restx-core-0.34.jar:na]
+	at restx.RestxMainRouterFactory$RecordingMainRouter.route(RestxMainRouterFactory.java:185) [restx-core-0.34.jar:na]
+	at restx.RestxMainRouterFactory$CompilationManagerRouter.route(RestxMainRouterFactory.java:337) [restx-core-0.34.jar:na]
+	at restx.servlet.AbstractRestxMainRouterServlet.service(AbstractRestxMainRouterServlet.java:48) [restx-servlet-0.34.jar:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848) [javax.servlet-3.0.0.v201112011016.jar:na]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:536) [jetty-security-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.Server.handle(Server.java:365) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_79]
+2016-03-28 13:32:13,649 [qtp321788455-26 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /loan >> BAD_REQUEST - 11.98 ms
+2016-03-28 13:32:25,710 [qtp321788455-23 ] [admin     ] WARN  restx.StdRestxMainRouter - request raised IllegalStateException: query param rate is required
+java.lang.IllegalStateException: query param rate is required
+	at restx.common.MorePreconditions.checkPresent(MorePreconditions.java:19) ~[restx-common-0.34.jar:na]
+	at com.kirkk.loancalc.rest.LoanResourceRouter$1.doRoute(LoanResourceRouter.java:47) ~[classes/:na]
+	at com.kirkk.loancalc.rest.LoanResourceRouter$1.doRoute(LoanResourceRouter.java:43) ~[classes/:na]
+	at restx.entity.StdEntityRoute.handle(StdEntityRoute.java:139) ~[restx-core-0.34.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.34.jar:na]
+	at restx.ResponseCloserFilter.handle(ResponseCloserFilter.java:28) ~[restx-core-0.34.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.34.jar:na]
+	at restx.CacheFilter$1.handle(CacheFilter.java:51) ~[restx-core-0.34.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.34.jar:na]
+	at restx.security.RestxSessionLogFilter.handle(RestxSessionLogFilter.java:43) ~[restx-core-0.34.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.34.jar:na]
+	at restx.security.RestxSessionCookieFilter.handle(RestxSessionCookieFilter.java:96) ~[restx-core-0.34.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.34.jar:na]
+	at restx.StdRestxMainRouter.route(StdRestxMainRouter.java:152) ~[restx-core-0.34.jar:na]
+	at restx.RestxMainRouterFactory$PerRequestFactoryLoader.route(RestxMainRouterFactory.java:228) [restx-core-0.34.jar:na]
+	at restx.RestxMainRouterFactory$RecordingMainRouter.route(RestxMainRouterFactory.java:185) [restx-core-0.34.jar:na]
+	at restx.RestxMainRouterFactory$CompilationManagerRouter.route(RestxMainRouterFactory.java:337) [restx-core-0.34.jar:na]
+	at restx.servlet.AbstractRestxMainRouterServlet.service(AbstractRestxMainRouterServlet.java:48) [restx-servlet-0.34.jar:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848) [javax.servlet-3.0.0.v201112011016.jar:na]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:536) [jetty-security-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.Server.handle(Server.java:365) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_79]
+2016-03-28 13:32:25,711 [qtp321788455-23 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /loan ? principle=15000?rate=6?term=60 >> BAD_REQUEST - 7.195 ms
+2016-03-28 13:32:33,976 [qtp321788455-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /loan ? term=60&principle=15000&rate=6 >> OK - 4.847 ms
+2016-03-28 13:32:37,667 [qtp321788455-26 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/loan >> OK - 28.77 ms
+2016-03-28 13:32:37,737 [qtp321788455-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 83.41 ms
+2016-03-28 13:32:37,810 [qtp321788455-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/loan&httpMethod=GET >> OK - 12.37 ms
+2016-03-28 13:32:40,648 [qtp321788455-22 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/sources/lib/codemirror-3.20/mode/yaml/yaml.min.js - per request factory created in 231.1 ms
+2016-03-28 13:32:40,686 [qtp321788455-23 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/sources/js/app.js - per request factory created in 220.5 ms
+2016-03-28 13:32:40,892 [qtp321788455-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 6.937 ms
+2016-03-28 13:32:40,893 [qtp321788455-21 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/sources/main/com/kirkk/loancalc/rest/ >> OK - 7.957 ms
+2016-03-28 13:32:40,919 [qtp321788455-20 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/sources/main/com/kirkk/loancalc/rest/LoanResource.java >> OK - 9.285 ms
+2016-03-28 13:32:40,964 [qtp321788455-23 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 12.40 ms
+2016-03-28 13:32:40,992 [qtp321788455-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/sources/main/com/kirkk/loancalc/rest/LoanResource.java >> OK - 5.877 ms
+2016-03-28 13:32:41,011 [qtp321788455-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 7.595 ms
+2016-03-28 13:32:41,024 [qtp321788455-26 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/sources/main/com/kirkk/loancalc/rest/ >> OK - 19.53 ms
+2016-03-28 13:32:41,026 [qtp321788455-21 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 9.631 ms
+2016-03-28 13:32:49,334 [qtp321788455-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/loan >> OK - 28.16 ms
+2016-03-28 13:32:49,413 [qtp321788455-23 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 106.9 ms
+2016-03-28 13:32:49,466 [qtp321788455-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/loan&httpMethod=GET >> OK - 10.25 ms
+2016-03-28 13:32:55,021 [qtp321788455-23 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 11.41 ms
+2016-03-28 13:32:55,027 [qtp321788455-20 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 8.581 ms
+2016-03-28 13:32:55,067 [qtp321788455-23 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 7.953 ms
+2016-03-28 13:32:55,071 [qtp321788455-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 7.505 ms
+2016-03-28 13:32:55,195 [qtp321788455-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 46.74 ms
+2016-03-28 13:32:55,315 [qtp321788455-23 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> OK - 57.51 ms
+2016-03-28 13:32:55,316 [qtp321788455-26 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/loan >> OK - 66.24 ms
+2016-03-28 13:32:55,321 [qtp321788455-20 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 70.77 ms
+2016-03-28 13:32:55,372 [qtp321788455-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/config >> OK - 23.05 ms
+2016-03-28 13:32:55,394 [qtp321788455-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/json-schema >> OK - 74.67 ms
+2016-03-28 13:32:55,402 [qtp321788455-21 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> OK - 40.30 ms
+2016-03-28 13:32:55,436 [qtp321788455-26 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages >> OK - 15.77 ms
+2016-03-28 13:32:55,482 [qtp321788455-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> OK - 15.72 ms
+2016-03-28 13:32:55,447 [qtp321788455-23 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/log-admin >> OK - 25.40 ms
+2016-03-28 13:32:55,465 [qtp321788455-20 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages-admin >> OK - 29.47 ms
+2016-03-28 13:32:55,490 [qtp321788455-21 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/sessions >> OK - 23.80 ms
+2016-03-28 13:32:55,496 [qtp321788455-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/metrics >> OK - 31.19 ms
+2016-03-28 13:32:55,540 [qtp321788455-26 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> OK - 15.45 ms
+2016-03-28 13:32:57,514 [qtp321788455-26 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 23.50 ms
+2016-03-28 13:32:57,585 [qtp321788455-21 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/message&httpMethod=GET >> OK - 9.956 ms
+2016-03-28 13:32:57,587 [qtp321788455-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 97.52 ms
+2016-03-28 13:33:06,385 [qtp321788455-26 ] [          ] INFO  r.security.RestxSessionCookieFilter - restx-admin sudoing request with { "principal": "KIrk" }
+2016-03-28 13:33:06,386 [qtp321788455-26 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /message >> UNAUTHORIZED - 5.065 ms
+2016-03-28 13:33:09,541 [qtp321788455-26 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] POST /sessions >> OK - 90.85 ms
+2016-03-28 13:33:10,060 [qtp321788455-23 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 8.229 ms
+2016-03-28 13:33:10,095 [qtp321788455-26 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 16.53 ms
+2016-03-28 13:33:10,120 [qtp321788455-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 10.16 ms
+2016-03-28 13:33:10,169 [qtp321788455-26 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 10.69 ms
+2016-03-28 13:33:10,215 [qtp321788455-27 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 42.69 ms
+2016-03-28 13:33:10,277 [qtp321788455-21 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 19.12 ms
+2016-03-28 13:33:10,278 [qtp321788455-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/loan >> OK - 20.29 ms
+2016-03-28 13:33:10,287 [qtp321788455-23 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> OK - 17.75 ms
+2016-03-28 13:33:10,327 [qtp321788455-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> OK - 29.26 ms
+2016-03-28 13:33:10,343 [qtp321788455-21 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages-admin >> OK - 17.29 ms
+2016-03-28 13:33:10,360 [qtp321788455-20 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/json-schema >> OK - 19.85 ms
+2016-03-28 13:33:10,362 [qtp321788455-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/log-admin >> OK - 31.61 ms
+2016-03-28 13:33:10,456 [qtp321788455-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/metrics >> OK - 37.96 ms
+2016-03-28 13:33:10,450 [qtp321788455-26 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/config >> OK - 40.45 ms
+2016-03-28 13:33:10,407 [qtp321788455-27 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages >> OK - 26.01 ms
+2016-03-28 13:33:10,394 [qtp321788455-23 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> OK - 11.94 ms
+2016-03-28 13:33:10,489 [qtp321788455-20 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> OK - 36.54 ms
+2016-03-28 13:33:10,529 [qtp321788455-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/sessions >> OK - 29.23 ms
+2016-03-28 13:33:17,708 [qtp321788455-23 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 17.36 ms
+2016-03-28 13:33:17,755 [qtp321788455-26 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 64.55 ms
+2016-03-28 13:33:17,765 [qtp321788455-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/hello&httpMethod=GET >> OK - 8.801 ms
+2016-03-28 13:33:25,435 [qtp321788455-21 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /hello ? who=Kirk >> OK - 6.762 ms
+2016-03-28 13:34:04,327 [Thread-1        ] [          ] INFO  o.e.j.s.listener.ELContextCleaner - javax.el.BeanELResolver purged
+2016-03-28 13:34:04,394 [Thread-1        ] [          ] INFO  o.e.jetty.util.thread.ShutdownThread - shutdown already commenced
+2016-03-28 13:34:52,343 [main            ] [          ] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2016-03-28 13:34:52,903 [main            ] [          ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+2016-03-28 13:34:52,922 [main            ] [          ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> DEV MODE << >> AUTO COMPILE <<
+ -- for admin console,
+ --   VISIT http://127.0.0.1:8080/api/@/ui/
+ --
+
+2016-03-28 13:34:53,876 [main            ] [          ] WARN  / - unavailable
+java.lang.RuntimeException: java.lang.RuntimeException: Compilation failed:
+src/main/java/com/kirkk/loancalc/rest/LoanResource.java:29: error: cannot find symbol
+    	return new Message().setMessage(new LoanCalculator().calculatePayment(principle, rate, term));
+    	           ^
+  symbol:   class Message
+  location: class com.kirkk.loancalc.rest.LoanResource
+
+	at restx.classloader.CompilationManager.incrementalCompile(CompilationManager.java:355) ~[restx-classloader-0.34.jar:na]
+	at restx.RestxMainRouterFactory.build(RestxMainRouterFactory.java:392) ~[restx-core-0.34.jar:na]
+	at restx.RestxMainRouterFactory.newInstance(RestxMainRouterFactory.java:70) ~[restx-core-0.34.jar:na]
+	at restx.servlet.RestxMainRouterServlet.init(RestxMainRouterServlet.java:74) ~[restx-servlet-0.34.jar:na]
+	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:519) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHolder.doStart(ServletHolder.java:331) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:747) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250) [jetty-webapp-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492) [jetty-webapp-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at restx.server.JettyWebServer.start(JettyWebServer.java:109) [restx-server-jetty-0.34.jar:na]
+	at restx.server.JettyWebServer.startAndAwait(JettyWebServer.java:114) [restx-server-jetty-0.34.jar:na]
+	at com.kirkk.loancalc.AppServer.main(AppServer.java:30) [classes/:na]
+java.lang.RuntimeException: Compilation failed:
+src/main/java/com/kirkk/loancalc/rest/LoanResource.java:29: error: cannot find symbol
+    	return new Message().setMessage(new LoanCalculator().calculatePayment(principle, rate, term));
+    	           ^
+  symbol:   class Message
+  location: class com.kirkk.loancalc.rest.LoanResource
+
+	at restx.classloader.CompilationManager.compile(CompilationManager.java:519) ~[restx-classloader-0.34.jar:na]
+	at restx.classloader.CompilationManager.access$700(CompilationManager.java:51) ~[restx-classloader-0.34.jar:na]
+	at restx.classloader.CompilationManager$8.call(CompilationManager.java:347) ~[restx-classloader-0.34.jar:na]
+	at restx.classloader.CompilationManager$8.call(CompilationManager.java:325) ~[restx-classloader-0.34.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) ~[na:1.7.0_79]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178) ~[na:1.7.0_79]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292) ~[na:1.7.0_79]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) ~[na:1.7.0_79]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) ~[na:1.7.0_79]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.7.0_79]
+2016-03-28 13:35:19,146 [Thread-1        ] [          ] INFO  o.e.j.s.listener.ELContextCleaner - javax.el.BeanELResolver purged
+2016-03-28 13:35:19,202 [Thread-1        ] [          ] INFO  o.e.jetty.util.thread.ShutdownThread - shutdown already commenced
+2016-03-28 13:35:21,683 [main            ] [          ] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2016-03-28 13:35:22,217 [main            ] [          ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+2016-03-28 13:35:22,237 [main            ] [          ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> DEV MODE << >> AUTO COMPILE <<
+ -- for admin console,
+ --   VISIT http://127.0.0.1:8080/api/@/ui/
+ --
+
+2016-03-28 13:35:23,163 [main            ] [          ] WARN  / - unavailable
+java.lang.RuntimeException: java.lang.RuntimeException: Compilation failed:
+src/main/java/com/kirkk/loancalc/rest/LoanResource.java:28: error: cannot find symbol
+    public Message loan(String principle, String rate, String term) {
+           ^
+  symbol:   class Message
+  location: class com.kirkk.loancalc.rest.LoanResource
+src/main/java/com/kirkk/loancalc/rest/LoanResource.java:28: error: cannot find symbol
+    public Message loan(String principle, String rate, String term) {
+           ^
+  symbol:   class Message
+  location: class com.kirkk.loancalc.rest.LoanResource
+src/main/java/com/kirkk/loancalc/rest/LoanResource.java:29: error: cannot find symbol
+    	return new Message().setMessage(new LoanCalculator().calculatePayment(principle, rate, term));
+    	           ^
+  symbol:   class Message
+  location: class com.kirkk.loancalc.rest.LoanResource
+target/restx/classes/com/kirkk/loancalc/rest/LoanResourceRouter.java:39: error: cannot find symbol
+        new StdEntityRoute<Void, Message>("default#LoanResource#loan",
+                                 ^
+  symbol:   class Message
+  location: class com.kirkk.loancalc.rest.LoanResourceRouter
+target/restx/classes/com/kirkk/loancalc/rest/LoanResourceRouter.java:41: error: cannot find symbol
+                writerRegistry.<Message>build(Message.class, Optional.<String>absent()),
+                                              ^
+  symbol:   class Message
+  location: class com.kirkk.loancalc.rest.LoanResourceRouter
+target/restx/classes/com/kirkk/loancalc/rest/LoanResourceRouter.java:41: error: cannot find symbol
+                writerRegistry.<Message>build(Message.class, Optional.<String>absent()),
+                                ^
+  symbol:   class Message
+  location: class com.kirkk.loancalc.rest.LoanResourceRouter
+target/restx/classes/com/kirkk/loancalc/rest/LoanResourceRouter.java:45: error: cannot find symbol
+            protected Optional<Message> doRoute(RestxRequest request, RestxRequestMatch match, Void body) throws IOException {
+                               ^
+  symbol: class Message
+
+	at restx.classloader.CompilationManager.incrementalCompile(CompilationManager.java:355) ~[restx-classloader-0.34.jar:na]
+	at restx.RestxMainRouterFactory.build(RestxMainRouterFactory.java:392) ~[restx-core-0.34.jar:na]
+	at restx.RestxMainRouterFactory.newInstance(RestxMainRouterFactory.java:70) ~[restx-core-0.34.jar:na]
+	at restx.servlet.RestxMainRouterServlet.init(RestxMainRouterServlet.java:74) ~[restx-servlet-0.34.jar:na]
+	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:519) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHolder.doStart(ServletHolder.java:331) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:747) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250) [jetty-webapp-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492) [jetty-webapp-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at restx.server.JettyWebServer.start(JettyWebServer.java:109) [restx-server-jetty-0.34.jar:na]
+	at restx.server.JettyWebServer.startAndAwait(JettyWebServer.java:114) [restx-server-jetty-0.34.jar:na]
+	at com.kirkk.loancalc.AppServer.main(AppServer.java:30) [classes/:na]
+java.lang.RuntimeException: Compilation failed:
+src/main/java/com/kirkk/loancalc/rest/LoanResource.java:28: error: cannot find symbol
+    public Message loan(String principle, String rate, String term) {
+           ^
+  symbol:   class Message
+  location: class com.kirkk.loancalc.rest.LoanResource
+src/main/java/com/kirkk/loancalc/rest/LoanResource.java:28: error: cannot find symbol
+    public Message loan(String principle, String rate, String term) {
+           ^
+  symbol:   class Message
+  location: class com.kirkk.loancalc.rest.LoanResource
+src/main/java/com/kirkk/loancalc/rest/LoanResource.java:29: error: cannot find symbol
+    	return new Message().setMessage(new LoanCalculator().calculatePayment(principle, rate, term));
+    	           ^
+  symbol:   class Message
+  location: class com.kirkk.loancalc.rest.LoanResource
+target/restx/classes/com/kirkk/loancalc/rest/LoanResourceRouter.java:39: error: cannot find symbol
+        new StdEntityRoute<Void, Message>("default#LoanResource#loan",
+                                 ^
+  symbol:   class Message
+  location: class com.kirkk.loancalc.rest.LoanResourceRouter
+target/restx/classes/com/kirkk/loancalc/rest/LoanResourceRouter.java:41: error: cannot find symbol
+                writerRegistry.<Message>build(Message.class, Optional.<String>absent()),
+                                              ^
+  symbol:   class Message
+  location: class com.kirkk.loancalc.rest.LoanResourceRouter
+target/restx/classes/com/kirkk/loancalc/rest/LoanResourceRouter.java:41: error: cannot find symbol
+                writerRegistry.<Message>build(Message.class, Optional.<String>absent()),
+                                ^
+  symbol:   class Message
+  location: class com.kirkk.loancalc.rest.LoanResourceRouter
+target/restx/classes/com/kirkk/loancalc/rest/LoanResourceRouter.java:45: error: cannot find symbol
+            protected Optional<Message> doRoute(RestxRequest request, RestxRequestMatch match, Void body) throws IOException {
+                               ^
+  symbol: class Message
+
+	at restx.classloader.CompilationManager.compile(CompilationManager.java:519) ~[restx-classloader-0.34.jar:na]
+	at restx.classloader.CompilationManager.access$700(CompilationManager.java:51) ~[restx-classloader-0.34.jar:na]
+	at restx.classloader.CompilationManager$8.call(CompilationManager.java:347) ~[restx-classloader-0.34.jar:na]
+	at restx.classloader.CompilationManager$8.call(CompilationManager.java:325) ~[restx-classloader-0.34.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) ~[na:1.7.0_79]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178) ~[na:1.7.0_79]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292) ~[na:1.7.0_79]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) ~[na:1.7.0_79]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) ~[na:1.7.0_79]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.7.0_79]
+2016-03-28 13:36:35,360 [Thread-1        ] [          ] INFO  o.e.j.s.listener.ELContextCleaner - javax.el.BeanELResolver purged
+2016-03-28 13:36:35,415 [Thread-1        ] [          ] INFO  o.e.jetty.util.thread.ShutdownThread - shutdown already commenced
+2016-03-28 13:36:37,957 [main            ] [          ] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2016-03-28 13:36:38,477 [main            ] [          ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+2016-03-28 13:36:38,503 [main            ] [          ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> DEV MODE << >> AUTO COMPILE <<
+ -- for admin console,
+ --   VISIT http://127.0.0.1:8080/api/@/ui/
+ --
+
+2016-03-28 13:36:39,515 [pool-1-thread-1 ] [          ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 884.0 ms
+2016-03-28 13:36:39,976 [main            ] [          ] INFO  restx.classloader.CompilationManager - watching for changes in [src/main/java, src/main/resources]; current location is /Users/pragkirk/development/modernjava/apps/Restx/loancalculator/.
+2016-03-28 13:36:40,013 [main            ] [          ] INFO  restx.monitor.MetricsConfiguration - registering Metrics JVM metrics
+2016-03-28 13:36:45,423 [qtp655787180-20 ] [          ] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.1.Final
+2016-03-28 13:36:45,515 [qtp655787180-20 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs - per request factory created in 339.0 ms
+2016-03-28 13:36:45,773 [qtp655787180-20 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 257.8 ms
+2016-03-28 13:36:46,020 [qtp655787180-25 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/config - per request factory created in 206.6 ms
+2016-03-28 13:36:46,023 [qtp655787180-21 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/hello - per request factory created in 244.1 ms
+2016-03-28 13:36:46,041 [qtp655787180-22 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/admin-pages - per request factory created in 254.2 ms
+2016-03-28 13:36:46,047 [qtp655787180-23 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/json-schema - per request factory created in 241.1 ms
+2016-03-28 13:36:46,051 [qtp655787180-20 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/loan - per request factory created in 270.6 ms
+2016-03-28 13:36:46,158 [qtp655787180-25 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/config >> OK - 137.4 ms
+2016-03-28 13:36:46,161 [qtp655787180-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> OK - 119.9 ms
+2016-03-28 13:36:46,167 [qtp655787180-21 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 143.4 ms
+2016-03-28 13:36:46,171 [qtp655787180-23 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/json-schema >> OK - 124.0 ms
+2016-03-28 13:36:46,194 [qtp655787180-20 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/loan >> OK - 142.6 ms
+2016-03-28 13:36:46,197 [qtp655787180-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> OK - 192.8 ms
+2016-03-28 13:36:46,414 [qtp655787180-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/log-admin >> OK - 96.29 ms
+2016-03-28 13:36:46,427 [qtp655787180-21 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/metrics >> OK - 83.00 ms
+2016-03-28 13:36:46,439 [qtp655787180-23 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages-admin >> OK - 107.2 ms
+2016-03-28 13:36:46,450 [qtp655787180-20 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> OK - 88.88 ms
+2016-03-28 13:36:46,454 [qtp655787180-25 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages >> OK - 114.6 ms
+2016-03-28 13:36:46,461 [qtp655787180-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/sessions >> OK - 114.8 ms
+2016-03-28 13:36:46,557 [qtp655787180-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> OK - 46.28 ms
+2016-03-28 13:36:48,876 [qtp655787180-21 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/loan >> OK - 35.03 ms
+2016-03-28 13:36:48,963 [qtp655787180-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 122.2 ms
+2016-03-28 13:36:49,023 [qtp655787180-20 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/loan&httpMethod=GET >> OK - 56.91 ms
+2016-03-28 13:36:54,550 [qtp655787180-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /loan ? term=60&principle=15000&rate=6 >> OK - 10.83 ms
+2016-03-28 13:37:20,028 [pool-4-thread-1 ] [          ] INFO  restx.classloader.CompilationManager - classpath resource updated: com/kirkk/loancalc/.DS_Store
+2016-03-28 13:37:45,755 [qtp655787180-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 38.83 ms
+2016-03-28 13:37:45,844 [qtp655787180-23 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/hello&httpMethod=GET >> OK - 14.75 ms
+2016-03-28 13:37:45,894 [qtp655787180-25 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 202.1 ms
+2016-03-28 13:37:49,806 [qtp655787180-25 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/loan >> OK - 35.40 ms
+2016-03-28 13:37:49,896 [qtp655787180-21 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/loan&httpMethod=GET >> OK - 16.26 ms
+2016-03-28 13:37:49,926 [qtp655787180-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 154.3 ms
+2016-03-28 13:38:10,671 [Thread-1        ] [          ] INFO  o.e.j.s.listener.ELContextCleaner - javax.el.BeanELResolver purged
+2016-03-28 13:38:10,727 [Thread-1        ] [          ] INFO  o.e.jetty.util.thread.ShutdownThread - shutdown already commenced
+2016-03-28 13:39:36,486 [main            ] [          ] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2016-03-28 13:39:37,028 [main            ] [          ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+2016-03-28 13:39:37,048 [main            ] [          ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> DEV MODE << >> AUTO COMPILE <<
+ -- for admin console,
+ --   VISIT http://127.0.0.1:8080/api/@/ui/
+ --
+
+2016-03-28 13:39:38,022 [main            ] [          ] WARN  / - unavailable
+java.lang.RuntimeException: java.lang.RuntimeException: Compilation failed:
+src/main/java/com/kirkk/loancalc/rest/LoanResource.java:29: error: cannot find symbol
+    public Payment loan(String principle, String rate, String term) {
+           ^
+  symbol:   class Payment
+  location: class com.kirkk.loancalc.rest.LoanResource
+src/main/java/com/kirkk/loancalc/rest/LoanResource.java:29: error: cannot find symbol
+    public Payment loan(String principle, String rate, String term) {
+           ^
+  symbol:   class Payment
+  location: class com.kirkk.loancalc.rest.LoanResource
+src/main/java/com/kirkk/loancalc/rest/LoanResource.java:30: error: cannot find symbol
+    	return new Payment().setMessage(new LoanCalculator().calculatePayment(principle, rate, term));
+    	           ^
+  symbol:   class Payment
+  location: class com.kirkk.loancalc.rest.LoanResource
+target/restx/classes/com/kirkk/loancalc/rest/LoanResourceRouter.java:39: error: cannot find symbol
+        new StdEntityRoute<Void, Payment>("default#LoanResource#loan",
+                                 ^
+  symbol:   class Payment
+  location: class com.kirkk.loancalc.rest.LoanResourceRouter
+target/restx/classes/com/kirkk/loancalc/rest/LoanResourceRouter.java:41: error: cannot find symbol
+                writerRegistry.<Payment>build(Payment.class, Optional.<String>absent()),
+                                              ^
+  symbol:   class Payment
+  location: class com.kirkk.loancalc.rest.LoanResourceRouter
+target/restx/classes/com/kirkk/loancalc/rest/LoanResourceRouter.java:41: error: cannot find symbol
+                writerRegistry.<Payment>build(Payment.class, Optional.<String>absent()),
+                                ^
+  symbol:   class Payment
+  location: class com.kirkk.loancalc.rest.LoanResourceRouter
+target/restx/classes/com/kirkk/loancalc/rest/LoanResourceRouter.java:45: error: cannot find symbol
+            protected Optional<Payment> doRoute(RestxRequest request, RestxRequestMatch match, Void body) throws IOException {
+                               ^
+  symbol: class Payment
+
+	at restx.classloader.CompilationManager.incrementalCompile(CompilationManager.java:355) ~[restx-classloader-0.34.jar:na]
+	at restx.RestxMainRouterFactory.build(RestxMainRouterFactory.java:392) ~[restx-core-0.34.jar:na]
+	at restx.RestxMainRouterFactory.newInstance(RestxMainRouterFactory.java:70) ~[restx-core-0.34.jar:na]
+	at restx.servlet.RestxMainRouterServlet.init(RestxMainRouterServlet.java:74) ~[restx-servlet-0.34.jar:na]
+	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:519) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHolder.doStart(ServletHolder.java:331) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:747) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250) [jetty-webapp-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492) [jetty-webapp-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at restx.server.JettyWebServer.start(JettyWebServer.java:109) [restx-server-jetty-0.34.jar:na]
+	at restx.server.JettyWebServer.startAndAwait(JettyWebServer.java:114) [restx-server-jetty-0.34.jar:na]
+	at com.kirkk.loancalc.AppServer.main(AppServer.java:30) [classes/:na]
+java.lang.RuntimeException: Compilation failed:
+src/main/java/com/kirkk/loancalc/rest/LoanResource.java:29: error: cannot find symbol
+    public Payment loan(String principle, String rate, String term) {
+           ^
+  symbol:   class Payment
+  location: class com.kirkk.loancalc.rest.LoanResource
+src/main/java/com/kirkk/loancalc/rest/LoanResource.java:29: error: cannot find symbol
+    public Payment loan(String principle, String rate, String term) {
+           ^
+  symbol:   class Payment
+  location: class com.kirkk.loancalc.rest.LoanResource
+src/main/java/com/kirkk/loancalc/rest/LoanResource.java:30: error: cannot find symbol
+    	return new Payment().setMessage(new LoanCalculator().calculatePayment(principle, rate, term));
+    	           ^
+  symbol:   class Payment
+  location: class com.kirkk.loancalc.rest.LoanResource
+target/restx/classes/com/kirkk/loancalc/rest/LoanResourceRouter.java:39: error: cannot find symbol
+        new StdEntityRoute<Void, Payment>("default#LoanResource#loan",
+                                 ^
+  symbol:   class Payment
+  location: class com.kirkk.loancalc.rest.LoanResourceRouter
+target/restx/classes/com/kirkk/loancalc/rest/LoanResourceRouter.java:41: error: cannot find symbol
+                writerRegistry.<Payment>build(Payment.class, Optional.<String>absent()),
+                                              ^
+  symbol:   class Payment
+  location: class com.kirkk.loancalc.rest.LoanResourceRouter
+target/restx/classes/com/kirkk/loancalc/rest/LoanResourceRouter.java:41: error: cannot find symbol
+                writerRegistry.<Payment>build(Payment.class, Optional.<String>absent()),
+                                ^
+  symbol:   class Payment
+  location: class com.kirkk.loancalc.rest.LoanResourceRouter
+target/restx/classes/com/kirkk/loancalc/rest/LoanResourceRouter.java:45: error: cannot find symbol
+            protected Optional<Payment> doRoute(RestxRequest request, RestxRequestMatch match, Void body) throws IOException {
+                               ^
+  symbol: class Payment
+
+	at restx.classloader.CompilationManager.compile(CompilationManager.java:519) ~[restx-classloader-0.34.jar:na]
+	at restx.classloader.CompilationManager.access$700(CompilationManager.java:51) ~[restx-classloader-0.34.jar:na]
+	at restx.classloader.CompilationManager$8.call(CompilationManager.java:347) ~[restx-classloader-0.34.jar:na]
+	at restx.classloader.CompilationManager$8.call(CompilationManager.java:325) ~[restx-classloader-0.34.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) ~[na:1.7.0_79]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178) ~[na:1.7.0_79]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292) ~[na:1.7.0_79]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) ~[na:1.7.0_79]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) ~[na:1.7.0_79]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.7.0_79]
+2016-03-28 13:39:45,286 [Thread-1        ] [          ] INFO  o.e.j.s.listener.ELContextCleaner - javax.el.BeanELResolver purged
+2016-03-28 13:39:45,341 [Thread-1        ] [          ] INFO  o.e.jetty.util.thread.ShutdownThread - shutdown already commenced
+2016-03-28 13:39:57,682 [main            ] [          ] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2016-03-28 13:39:58,234 [main            ] [          ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+2016-03-28 13:39:58,253 [main            ] [          ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> DEV MODE << >> AUTO COMPILE <<
+ -- for admin console,
+ --   VISIT http://127.0.0.1:8080/api/@/ui/
+ --
+
+2016-03-28 13:39:59,276 [main            ] [          ] WARN  / - unavailable
+java.lang.RuntimeException: java.lang.RuntimeException: Compilation failed:
+src/main/java/com/kirkk/loancalc/rest/LoanResource.java:30: error: cannot find symbol
+    	return new Payment().setMessage(new LoanCalculator().calculatePayment(principle, rate, term));
+    	                    ^
+  symbol:   method setMessage(java.lang.String)
+  location: class com.kirkk.loancalc.domain.Payment
+
+	at restx.classloader.CompilationManager.incrementalCompile(CompilationManager.java:355) ~[restx-classloader-0.34.jar:na]
+	at restx.RestxMainRouterFactory.build(RestxMainRouterFactory.java:392) ~[restx-core-0.34.jar:na]
+	at restx.RestxMainRouterFactory.newInstance(RestxMainRouterFactory.java:70) ~[restx-core-0.34.jar:na]
+	at restx.servlet.RestxMainRouterServlet.init(RestxMainRouterServlet.java:74) ~[restx-servlet-0.34.jar:na]
+	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:519) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHolder.doStart(ServletHolder.java:331) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:747) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:265) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1250) [jetty-webapp-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:706) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:492) [jetty-webapp-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:229) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:95) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:277) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at restx.server.JettyWebServer.start(JettyWebServer.java:109) [restx-server-jetty-0.34.jar:na]
+	at restx.server.JettyWebServer.startAndAwait(JettyWebServer.java:114) [restx-server-jetty-0.34.jar:na]
+	at com.kirkk.loancalc.AppServer.main(AppServer.java:30) [classes/:na]
+java.lang.RuntimeException: Compilation failed:
+src/main/java/com/kirkk/loancalc/rest/LoanResource.java:30: error: cannot find symbol
+    	return new Payment().setMessage(new LoanCalculator().calculatePayment(principle, rate, term));
+    	                    ^
+  symbol:   method setMessage(java.lang.String)
+  location: class com.kirkk.loancalc.domain.Payment
+
+	at restx.classloader.CompilationManager.compile(CompilationManager.java:519) ~[restx-classloader-0.34.jar:na]
+	at restx.classloader.CompilationManager.access$700(CompilationManager.java:51) ~[restx-classloader-0.34.jar:na]
+	at restx.classloader.CompilationManager$8.call(CompilationManager.java:347) ~[restx-classloader-0.34.jar:na]
+	at restx.classloader.CompilationManager$8.call(CompilationManager.java:325) ~[restx-classloader-0.34.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) ~[na:1.7.0_79]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178) ~[na:1.7.0_79]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292) ~[na:1.7.0_79]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) ~[na:1.7.0_79]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) ~[na:1.7.0_79]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.7.0_79]
+2016-03-28 13:40:06,252 [Thread-1        ] [          ] INFO  o.e.j.s.listener.ELContextCleaner - javax.el.BeanELResolver purged
+2016-03-28 13:40:06,307 [Thread-1        ] [          ] INFO  o.e.jetty.util.thread.ShutdownThread - shutdown already commenced
+2016-03-28 13:40:15,923 [main            ] [          ] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2016-03-28 13:40:16,463 [main            ] [          ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+2016-03-28 13:40:16,482 [main            ] [          ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> DEV MODE << >> AUTO COMPILE <<
+ -- for admin console,
+ --   VISIT http://127.0.0.1:8080/api/@/ui/
+ --
+
+2016-03-28 13:40:17,520 [pool-1-thread-1 ] [          ] INFO  restx.classloader.CompilationManager - compilation finished: 2 sources compiled in 914.9 ms
+2016-03-28 13:40:17,968 [main            ] [          ] INFO  restx.classloader.CompilationManager - watching for changes in [src/main/java, src/main/resources]; current location is /Users/pragkirk/development/modernjava/apps/Restx/loancalculator/.
+2016-03-28 13:40:18,013 [main            ] [          ] INFO  restx.monitor.MetricsConfiguration - registering Metrics JVM metrics
+2016-03-28 13:40:21,684 [qtp655787180-23 ] [          ] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.1.Final
+2016-03-28 13:40:21,758 [qtp655787180-23 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/ - per request factory created in 307.4 ms
+2016-03-28 13:40:22,402 [qtp655787180-20 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 17.28 ms
+2016-03-28 13:40:22,410 [qtp655787180-23 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 20.16 ms
+2016-03-28 13:40:24,866 [qtp655787180-20 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 21.88 ms
+2016-03-28 13:40:24,909 [qtp655787180-21 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 64.20 ms
+2016-03-28 13:40:24,946 [qtp655787180-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 17.26 ms
+2016-03-28 13:40:25,004 [qtp655787180-21 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 15.99 ms
+2016-03-28 13:40:25,167 [qtp655787180-25 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 81.86 ms
+2016-03-28 13:40:25,333 [qtp655787180-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/loan >> OK - 69.95 ms
+2016-03-28 13:40:25,343 [qtp655787180-20 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 63.07 ms
+2016-03-28 13:40:25,345 [qtp655787180-23 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> OK - 70.31 ms
+2016-03-28 13:40:25,354 [qtp655787180-25 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/config >> OK - 82.86 ms
+2016-03-28 13:40:25,392 [qtp655787180-24 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/json-schema - per request factory created in 217.0 ms
+2016-03-28 13:40:25,441 [qtp655787180-21 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/specs - per request factory created in 256.8 ms
+2016-03-28 13:40:25,458 [qtp655787180-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/json-schema >> OK - 65.68 ms
+2016-03-28 13:40:25,545 [qtp655787180-23 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages-admin >> OK - 50.98 ms
+2016-03-28 13:40:25,542 [qtp655787180-20 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/log-admin >> OK - 54.63 ms
+2016-03-28 13:40:25,527 [qtp655787180-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages >> OK - 46.17 ms
+2016-03-28 13:40:25,514 [qtp655787180-25 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/metrics >> OK - 77.75 ms
+2016-03-28 13:40:25,499 [qtp655787180-21 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> OK - 57.13 ms
+2016-03-28 13:40:25,661 [qtp655787180-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> OK - 24.80 ms
+2016-03-28 13:40:25,696 [qtp655787180-21 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/sessions >> OK - 48.64 ms
+2016-03-28 13:40:25,703 [qtp655787180-25 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> OK - 61.49 ms
+2016-03-28 13:40:26,782 [qtp655787180-21 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/loan >> OK - 26.35 ms
+2016-03-28 13:40:26,871 [qtp655787180-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 122.0 ms
+2016-03-28 13:40:26,920 [qtp655787180-20 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/loan&httpMethod=GET >> OK - 40.31 ms
+2016-03-28 13:40:34,766 [qtp655787180-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /loan ? term=60&principle=15000&rate=5 >> OK - 15.51 ms
+2016-03-28 13:40:48,023 [pool-4-thread-1 ] [          ] INFO  restx.classloader.CompilationManager - classpath resource updated: .DS_Store
+2016-03-28 13:41:06,193 [Thread-1        ] [          ] INFO  o.e.j.s.listener.ELContextCleaner - javax.el.BeanELResolver purged
+2016-03-28 13:41:06,250 [Thread-1        ] [          ] INFO  o.e.jetty.util.thread.ShutdownThread - shutdown already commenced
+2016-03-28 13:42:03,589 [main            ] [          ] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2016-03-28 13:42:03,878 [main            ] [          ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+2016-03-28 13:42:03,878 [main            ] [          ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> CLEAN << >> TEST MODE <<
+ -- for admin console,
+ --   VISIT http://127.0.0.1:55364/api/@/ui/
+ --
+
+2016-03-28 13:42:05,398 [qtp592953721-13 ] [          ] INFO  restx.stats.RestxStatsCollector - collecting and sharing stats enabled - see http://restx.io/stats.html for details.
+2016-03-28 13:42:05,497 [qtp592953721-13 ] [          ] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.1.Final
+2016-03-28 13:42:05,616 [qtp592953721-13 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /hello ? who=xavier - per request factory created in 1.510 s
+2016-03-28 13:42:05,630 [qtp592953721-13 ] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /hello ? who=xavier >> OK - 13.31 ms
+2016-03-28 13:42:06,177 [qtp592953721-13 ] [          ] INFO  restx.stats.RestxStatsCollector - collecting and sharing stats enabled - see http://restx.io/stats.html for details.
+2016-03-28 13:42:06,218 [qtp592953721-13 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /message - per request factory created in 367.2 ms
+2016-03-28 13:42:06,260 [qtp592953721-13 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /message >> OK - 40.93 ms
+2016-03-28 13:42:06,766 [qtp592953721-13 ] [          ] INFO  restx.stats.RestxStatsCollector - collecting and sharing stats enabled - see http://restx.io/stats.html for details.
+2016-03-28 13:42:06,804 [qtp592953721-13 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /message - per request factory created in 325.7 ms
+2016-03-28 13:42:06,820 [qtp592953721-13 ] [user1     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /message >> OK - 15.92 ms
+2016-03-28 13:42:07,339 [qtp592953721-13 ] [          ] INFO  restx.stats.RestxStatsCollector - collecting and sharing stats enabled - see http://restx.io/stats.html for details.
+2016-03-28 13:42:07,372 [qtp592953721-13 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] POST /mypojo - per request factory created in 335.1 ms
+2016-03-28 13:42:07,484 [qtp592953721-13 ] [user1     ] WARN  restx.StdRestxMainRouter - request raised IllegalArgumentException: ConstraintViolationImpl{interpolatedMessage='may not be null', propertyPath=value, rootBeanClass=class com.kirkk.loancalc.rest.HelloResource$MyPOJO, messageTemplate='{javax.validation.constraints.NotNull.message}'}
+java.lang.IllegalArgumentException: ConstraintViolationImpl{interpolatedMessage='may not be null', propertyPath=value, rootBeanClass=class com.kirkk.loancalc.rest.HelloResource$MyPOJO, messageTemplate='{javax.validation.constraints.NotNull.message}'}
+	at restx.validation.Validations.checkValid(Validations.java:34) ~[restx-core-0.34.jar:na]
+	at com.kirkk.loancalc.rest.HelloResourceRouter$3.doRoute(HelloResourceRouter.java:102) ~[classes/:na]
+	at com.kirkk.loancalc.rest.HelloResourceRouter$3.doRoute(HelloResourceRouter.java:98) ~[classes/:na]
+	at restx.entity.StdEntityRoute.handle(StdEntityRoute.java:139) ~[restx-core-0.34.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.34.jar:na]
+	at restx.ResponseCloserFilter.handle(ResponseCloserFilter.java:28) ~[restx-core-0.34.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.34.jar:na]
+	at restx.CacheFilter$1.handle(CacheFilter.java:51) ~[restx-core-0.34.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.34.jar:na]
+	at restx.security.RestxSessionLogFilter.handle(RestxSessionLogFilter.java:43) ~[restx-core-0.34.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.34.jar:na]
+	at restx.security.RestxSessionCookieFilter.handle(RestxSessionCookieFilter.java:96) ~[restx-core-0.34.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.34.jar:na]
+	at restx.stats.RestxStatsCollectionFilter.handle(RestxStatsCollectionFilter.java:39) ~[restx-stats-admin-0.34.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[restx-core-0.34.jar:na]
+	at restx.StdRestxMainRouter.route(StdRestxMainRouter.java:152) ~[restx-core-0.34.jar:na]
+	at restx.RestxMainRouterFactory$PerRequestFactoryLoader.route(RestxMainRouterFactory.java:228) [restx-core-0.34.jar:na]
+	at restx.RestxMainRouterFactory$RecordingMainRouter.route(RestxMainRouterFactory.java:185) [restx-core-0.34.jar:na]
+	at restx.servlet.AbstractRestxMainRouterServlet.service(AbstractRestxMainRouterServlet.java:48) [restx-servlet-0.34.jar:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:770) [javax.servlet-api-3.0.1.jar:3.0.1]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:536) [jetty-security-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.Server.handle(Server.java:365) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:937) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:998) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:856) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_79]
+2016-03-28 13:42:07,486 [qtp592953721-13 ] [user1     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] POST /mypojo >> BAD_REQUEST - 113.6 ms
+2016-03-28 13:42:08,015 [qtp592953721-15 ] [          ] INFO  restx.stats.RestxStatsCollector - collecting and sharing stats enabled - see http://restx.io/stats.html for details.
+2016-03-28 13:42:08,040 [qtp592953721-15 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] POST /mypojo - per request factory created in 333.5 ms
+2016-03-28 13:42:08,059 [qtp592953721-15 ] [user1     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] POST /mypojo >> OK - 17.80 ms
+2016-03-28 13:42:08,545 [qtp592953721-15 ] [          ] INFO  restx.stats.RestxStatsCollector - collecting and sharing stats enabled - see http://restx.io/stats.html for details.
+2016-03-28 13:42:08,573 [qtp592953721-15 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /message - per request factory created in 289.7 ms
+2016-03-28 13:42:08,586 [qtp592953721-15 ] [user2     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /message >> FORBIDDEN - 12.47 ms
+2016-03-28 13:42:08,828 [main            ] [          ] INFO  o.e.j.s.listener.ELContextCleaner - javax.el.BeanELResolver purged
+2016-03-28 13:47:36,024 [main            ] [          ] INFO  org.eclipse.jetty.server.Server - jetty-8.y.z-SNAPSHOT
+2016-03-28 13:47:36,487 [main            ] [          ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+2016-03-28 13:47:36,506 [main            ] [          ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> DEV MODE << >> AUTO COMPILE <<
+ -- for admin console,
+ --   VISIT http://127.0.0.1:8080/api/@/ui/
+ --
+
+2016-03-28 13:47:36,534 [main            ] [          ] INFO  restx.Apps - can't enable Apidocs doclet: make sure tools.jar is in your classpath
+2016-03-28 13:47:37,585 [pool-1-thread-1 ] [          ] INFO  restx.classloader.CompilationManager - compilation finished: 8 sources compiled in 948.4 ms
+2016-03-28 13:47:37,744 [main            ] [          ] INFO  restx.Apps - can't enable Apidocs doclet: make sure tools.jar is in your classpath
+2016-03-28 13:47:37,770 [main            ] [          ] INFO  restx.classloader.CompilationManager - watching for changes in [src/main/java, src/main/resources]; current location is /Users/pragkirk/development/modernjava/apps/Restx/loancalculator/.
+2016-03-28 13:47:37,811 [main            ] [          ] INFO  restx.monitor.MetricsConfiguration - registering Metrics JVM metrics
+2016-03-28 13:47:40,289 [qtp762964738-24 ] [          ] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.1.Final
+2016-03-28 13:47:40,363 [qtp762964738-24 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/ - per request factory created in 428.6 ms
+2016-03-28 13:47:40,877 [qtp762964738-21 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/admin.js - per request factory created in 262.4 ms
+2016-03-28 13:47:40,883 [qtp762964738-20 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/bootstrap.min.css - per request factory created in 274.7 ms
+2016-03-28 13:47:40,891 [qtp762964738-25 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/securityHandling.js - per request factory created in 273.9 ms
+2016-03-28 13:47:40,923 [qtp762964738-22 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/admin.css - per request factory created in 295.0 ms
+2016-03-28 13:47:41,258 [qtp762964738-23 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 78.64 ms
+2016-03-28 13:47:41,268 [qtp762964738-21 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 50.87 ms
+2016-03-28 13:47:43,242 [qtp762964738-25 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 14.27 ms
+2016-03-28 13:47:43,247 [qtp762964738-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 21.45 ms
+2016-03-28 13:47:43,314 [qtp762964738-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 14.50 ms
+2016-03-28 13:47:43,370 [qtp762964738-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 27.05 ms
+2016-03-28 13:47:43,556 [qtp762964738-21 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 99.12 ms
+2016-03-28 13:47:43,691 [qtp762964738-26 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> OK - 72.41 ms
+2016-03-28 13:47:43,694 [qtp762964738-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/json-schema >> OK - 51.07 ms
+2016-03-28 13:47:43,695 [qtp762964738-25 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/loan >> OK - 64.04 ms
+2016-03-28 13:47:43,722 [qtp762964738-23 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 103.7 ms
+2016-03-28 13:47:43,769 [qtp762964738-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> OK - 84.44 ms
+2016-03-28 13:47:43,822 [qtp762964738-20 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages >> OK - 55.66 ms
+2016-03-28 13:47:43,902 [qtp762964738-26 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/messages-admin - per request factory created in 202.4 ms
+2016-03-28 13:47:43,910 [qtp762964738-21 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/config - per request factory created in 235.1 ms
+2016-03-28 13:47:43,942 [qtp762964738-23 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/metrics - per request factory created in 209.7 ms
+2016-03-28 13:47:43,991 [qtp762964738-21 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/config >> OK - 79.67 ms
+2016-03-28 13:47:43,993 [qtp762964738-24 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/log-admin - per request factory created in 293.6 ms
+2016-03-28 13:47:44,009 [qtp762964738-26 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages-admin >> OK - 106.0 ms
+2016-03-28 13:47:44,021 [qtp762964738-25 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> OK - 86.56 ms
+2016-03-28 13:47:44,060 [qtp762964738-23 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/metrics >> OK - 118.3 ms
+2016-03-28 13:47:44,065 [qtp762964738-22 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/sessions - per request factory created in 239.3 ms
+2016-03-28 13:47:44,076 [qtp762964738-24 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/log-admin >> OK - 82.19 ms
+2016-03-28 13:47:44,125 [qtp762964738-22 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/sessions >> OK - 58.88 ms
+2016-03-28 13:47:44,166 [qtp762964738-21 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> OK - 34.55 ms
+2016-03-28 13:48:01,431 [Thread-1        ] [          ] INFO  o.e.j.s.listener.ELContextCleaner - javax.el.BeanELResolver purged
+2016-03-28 13:48:01,488 [Thread-1        ] [          ] INFO  o.e.jetty.util.thread.ShutdownThread - shutdown already commenced
+2016-03-28 13:49:20,553 [main            ] [          ] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2016-03-28 13:49:21,071 [main            ] [          ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+2016-03-28 13:49:21,095 [main            ] [          ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> DEV MODE << >> AUTO COMPILE <<
+ -- for admin console,
+ --   VISIT http://127.0.0.1:8080/api/@/ui/
+ --
+
+2016-03-28 13:49:22,355 [pool-1-thread-1 ] [          ] INFO  restx.classloader.CompilationManager - compilation finished: 8 sources compiled in 1.130 s
+2016-03-28 13:49:22,833 [main            ] [          ] INFO  restx.classloader.CompilationManager - watching for changes in [src/main/java, src/main/resources]; current location is /Users/pragkirk/development/modernjava/apps/Restx/loancalculator/.
+2016-03-28 13:49:22,875 [main            ] [          ] INFO  restx.monitor.MetricsConfiguration - registering Metrics JVM metrics
+2016-03-28 13:49:25,206 [qtp655787180-21 ] [          ] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.1.Final
+2016-03-28 13:49:25,288 [qtp655787180-21 ] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/ - per request factory created in 326.1 ms
+2016-03-28 13:49:25,954 [qtp655787180-20 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 26.67 ms
+2016-03-28 13:49:26,037 [qtp655787180-21 ] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 19.50 ms
+2016-03-28 13:49:29,285 [Thread-1        ] [          ] INFO  o.e.j.s.listener.ELContextCleaner - javax.el.BeanELResolver purged
+2016-03-28 13:49:29,341 [Thread-1        ] [          ] INFO  o.e.jetty.util.thread.ShutdownThread - shutdown already commenced
+2016-03-29 19:03:56,424 [main            ] [          ] INFO  org.eclipse.jetty.server.Server - jetty-8.y.z-SNAPSHOT
+2016-03-29 19:03:56,884 [main            ] [          ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+2016-03-29 19:03:56,904 [main            ] [          ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> DEV MODE << >> AUTO COMPILE <<
+ -- for admin console,
+ --   VISIT http://127.0.0.1:8080/api/@/ui/
+ --
+
+2016-03-29 19:03:56,930 [main            ] [          ] INFO  restx.Apps - can't enable Apidocs doclet: make sure tools.jar is in your classpath
+2016-03-29 19:03:57,925 [pool-1-thread-1 ] [          ] INFO  restx.classloader.CompilationManager - compilation finished: 8 sources compiled in 880.3 ms
+2016-03-29 19:03:58,088 [main            ] [          ] INFO  restx.Apps - can't enable Apidocs doclet: make sure tools.jar is in your classpath
+2016-03-29 19:03:58,128 [main            ] [          ] INFO  restx.classloader.CompilationManager - watching for changes in [src/main/java, src/main/resources]; current location is /Users/pragkirk/development/modernjava/apps/Restx/loancalculator/.
+2016-03-29 19:03:58,170 [main            ] [          ] INFO  restx.monitor.MetricsConfiguration - registering Metrics JVM metrics
+2016-03-29 19:04:02,591 [qtp1737377171-22] [          ] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.1.Final
+2016-03-29 19:04:02,667 [qtp1737377171-22] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/ - per request factory created in 432.0 ms
+2016-03-29 19:04:02,910 [qtp1737377171-21] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/admin.js - per request factory created in 208.6 ms
+2016-03-29 19:04:02,923 [qtp1737377171-20] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/bootstrap.min.css - per request factory created in 233.0 ms
+2016-03-29 19:04:02,930 [qtp1737377171-23] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/css/admin.css - per request factory created in 237.2 ms
+2016-03-29 19:04:02,936 [qtp1737377171-25] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/ui/js/securityHandling.js - per request factory created in 234.9 ms
+2016-03-29 19:04:03,411 [qtp1737377171-20] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> UNAUTHORIZED - 931.0 μs
+2016-03-29 19:04:03,411 [qtp1737377171-21] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> UNAUTHORIZED - 2.716 ms
+2016-03-29 19:04:06,837 [qtp1737377171-22] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] POST /sessions >> OK - 322.0 ms
+2016-03-29 19:04:07,183 [qtp1737377171-20] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 45.09 ms
+2016-03-29 19:04:07,185 [qtp1737377171-25] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 24.57 ms
+2016-03-29 19:04:10,209 [qtp1737377171-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 17.17 ms
+2016-03-29 19:04:10,226 [qtp1737377171-20] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 18.52 ms
+2016-03-29 19:04:10,355 [qtp1737377171-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 44.47 ms
+2016-03-29 19:04:10,358 [qtp1737377171-20] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 46.71 ms
+2016-03-29 19:04:10,481 [qtp1737377171-25] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 96.64 ms
+2016-03-29 19:04:10,584 [qtp1737377171-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> OK - 43.83 ms
+2016-03-29 19:04:10,587 [qtp1737377171-24] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/loan >> OK - 57.54 ms
+2016-03-29 19:04:10,587 [qtp1737377171-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 57.98 ms
+2016-03-29 19:04:10,598 [qtp1737377171-20] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/json-schema >> OK - 56.94 ms
+2016-03-29 19:04:10,601 [qtp1737377171-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/config >> OK - 27.80 ms
+2016-03-29 19:04:10,711 [qtp1737377171-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages-admin >> OK - 60.78 ms
+2016-03-29 19:04:10,765 [qtp1737377171-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages >> OK - 64.09 ms
+2016-03-29 19:04:10,793 [qtp1737377171-25] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/specs - per request factory created in 270.7 ms
+2016-03-29 19:04:10,767 [qtp1737377171-24] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/metrics >> OK - 79.26 ms
+2016-03-29 19:04:10,779 [qtp1737377171-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> OK - 53.40 ms
+2016-03-29 19:04:10,792 [qtp1737377171-20] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/log-admin >> OK - 69.43 ms
+2016-03-29 19:04:10,879 [qtp1737377171-25] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> OK - 63.59 ms
+2016-03-29 19:04:10,923 [qtp1737377171-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/sessions >> OK - 45.17 ms
+2016-03-29 19:04:10,940 [qtp1737377171-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> OK - 48.21 ms
+2016-03-29 19:04:17,390 [qtp1737377171-24] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/loan >> OK - 22.95 ms
+2016-03-29 19:04:17,454 [qtp1737377171-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 86.77 ms
+2016-03-29 19:04:17,459 [qtp1737377171-20] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/notes/com.kirkk.loancalc.rest.LoanResource.notes.json >> NOT_FOUND - 20.41 ms
+2016-03-29 19:04:17,504 [qtp1737377171-25] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/specs ? path=/loan&httpMethod=GET >> OK - 61.61 ms
+2016-03-29 19:04:30,185 [qtp1737377171-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /loan ? term=60&principle=15000&rate=6 >> OK - 7.779 ms
+2016-03-29 19:04:36,268 [qtp1737377171-25] [admin     ] WARN  restx.StdRestxMainRouter - request raised IllegalStateException: query param principle is required
+java.lang.IllegalStateException: query param principle is required
+	at restx.common.MorePreconditions.checkPresent(MorePreconditions.java:19) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at com.kirkk.loancalc.rest.LoanResourceRouter$1.doRoute(LoanResourceRouter.java:47) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at com.kirkk.loancalc.rest.LoanResourceRouter$1.doRoute(LoanResourceRouter.java:43) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.entity.StdEntityRoute.handle(StdEntityRoute.java:139) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.ResponseCloserFilter.handle(ResponseCloserFilter.java:28) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.CacheFilter$1.handle(CacheFilter.java:51) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.security.RestxSessionLogFilter.handle(RestxSessionLogFilter.java:43) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.security.RestxSessionCookieFilter.handle(RestxSessionCookieFilter.java:96) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.StdRestxMainRouter.route(StdRestxMainRouter.java:152) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.RestxMainRouterFactory$PerRequestFactoryLoader.route(RestxMainRouterFactory.java:228) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.RestxMainRouterFactory$RecordingMainRouter.route(RestxMainRouterFactory.java:185) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.RestxMainRouterFactory$CompilationManagerRouter.route(RestxMainRouterFactory.java:337) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.servlet.AbstractRestxMainRouterServlet.service(AbstractRestxMainRouterServlet.java:48) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:770) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:536) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.Server.handle(Server.java:365) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_79]
+2016-03-29 19:04:36,270 [qtp1737377171-25] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /loan >> BAD_REQUEST - 13.98 ms
+2016-03-29 19:04:43,373 [qtp1737377171-25] [admin     ] WARN  restx.StdRestxMainRouter - request raised IllegalStateException: query param rate is required
+java.lang.IllegalStateException: query param rate is required
+	at restx.common.MorePreconditions.checkPresent(MorePreconditions.java:19) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at com.kirkk.loancalc.rest.LoanResourceRouter$1.doRoute(LoanResourceRouter.java:47) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at com.kirkk.loancalc.rest.LoanResourceRouter$1.doRoute(LoanResourceRouter.java:43) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.entity.StdEntityRoute.handle(StdEntityRoute.java:139) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.ResponseCloserFilter.handle(ResponseCloserFilter.java:28) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.CacheFilter$1.handle(CacheFilter.java:51) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.security.RestxSessionLogFilter.handle(RestxSessionLogFilter.java:43) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.security.RestxSessionCookieFilter.handle(RestxSessionCookieFilter.java:96) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.StdRestxMainRouter.route(StdRestxMainRouter.java:152) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.RestxMainRouterFactory$PerRequestFactoryLoader.route(RestxMainRouterFactory.java:228) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.RestxMainRouterFactory$RecordingMainRouter.route(RestxMainRouterFactory.java:185) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.RestxMainRouterFactory$CompilationManagerRouter.route(RestxMainRouterFactory.java:337) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.servlet.AbstractRestxMainRouterServlet.service(AbstractRestxMainRouterServlet.java:48) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:770) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:536) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.Server.handle(Server.java:365) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_79]
+2016-03-29 19:04:43,376 [qtp1737377171-25] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /loan ? principle=15000?rate=6?term=60 >> BAD_REQUEST - 8.676 ms
+2016-03-29 19:04:55,850 [qtp1737377171-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /loan ? term=60&principle=15000&rate=6 >> OK - 5.599 ms
+2016-03-29 19:05:03,684 [qtp1737377171-24] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /loan ? term=60&principle=15000&rate=6 >> OK - 884.0 μs
+2016-03-29 19:05:22,133 [qtp1737377171-21] [          ] WARN  restx.StdRestxMainRouter - request raised IllegalStateException: query param who is required
+java.lang.IllegalStateException: query param who is required
+	at restx.common.MorePreconditions.checkPresent(MorePreconditions.java:19) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at com.kirkk.loancalc.rest.HelloResourceRouter$2.doRoute(HelloResourceRouter.java:71) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at com.kirkk.loancalc.rest.HelloResourceRouter$2.doRoute(HelloResourceRouter.java:67) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.entity.StdEntityRoute.handle(StdEntityRoute.java:139) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.ResponseCloserFilter.handle(ResponseCloserFilter.java:28) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.CacheFilter$1.handle(CacheFilter.java:51) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.security.RestxSessionLogFilter.handle(RestxSessionLogFilter.java:43) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.security.RestxSessionCookieFilter.handle(RestxSessionCookieFilter.java:96) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.RestxHandlerMatch.handle(RestxHandlerMatch.java:56) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.StdRestxMainRouter.route(StdRestxMainRouter.java:152) ~[loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.RestxMainRouterFactory$PerRequestFactoryLoader.route(RestxMainRouterFactory.java:228) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.RestxMainRouterFactory$RecordingMainRouter.route(RestxMainRouterFactory.java:185) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.RestxMainRouterFactory$CompilationManagerRouter.route(RestxMainRouterFactory.java:337) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at restx.servlet.AbstractRestxMainRouterServlet.service(AbstractRestxMainRouterServlet.java:48) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:770) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:536) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.Server.handle(Server.java:365) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [loancalculator-0.1-SNAPSHOT.jar:na]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_79]
+2016-03-29 19:05:22,134 [qtp1737377171-21] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /hello >> BAD_REQUEST - 2.326 ms
+2016-03-29 19:05:25,405 [qtp1737377171-23] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /hello/kirk >> NOT_FOUND - 864.0 μs
+2016-03-29 19:05:30,424 [qtp1737377171-20] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /hello ? who=kirk >> OK - 3.729 ms
+2016-03-29 19:05:48,526 [qtp1737377171-22] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /hello ? who=kirk >> OK - 1.204 ms
+2016-03-29 19:05:50,901 [qtp1737377171-22] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /loan ? term=60&principle=15000&rate=6 >> OK - 935.0 μs
+2016-03-29 19:05:56,365 [Thread-1        ] [          ] INFO  o.e.j.s.listener.ELContextCleaner - javax.el.BeanELResolver purged
+2016-03-29 19:05:56,421 [Thread-1        ] [          ] INFO  o.e.jetty.util.thread.ShutdownThread - shutdown already commenced
